@@ -1,5 +1,79 @@
 body {
 	background-color:black;
 	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'PT Sans', sans-serif;
+	width: 100%;
 }
 
+.wrapper {
+	width: 100%;
+}
+
+#header {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+.mug {
+	margin-left: auto;
+	margin-right: auto;
+	flex-basis: 288px;
+	width: 288px;
+}
+
+.mug-img {
+	width: 288px;
+	height: 175px;
+}
+
+.mugs {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+}
+
+.label {
+	text-align: center;
+	font-size: 18px;
+}
+
+.find-us-text {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.google-map{
+	width: 320px;
+	height: 250px;
+}
+
+
+@media screen and (min-width: 321px) {
+	.header-title{
+		font-size: 40px;
+	}
+	.google-map {
+		width: 604px;
+		height: 302px;
+	}
+}
